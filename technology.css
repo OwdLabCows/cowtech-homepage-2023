@@ -1,0 +1,182 @@
+＿＿@charset "urf-8"
+
+*,
+::before,
+::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+/* 会社名ロゴ */
+.header-inner{
+    max-width: 1200px;
+    height: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{text-align: left;line-height: 0.1rem;font-size: 30pt;}
+h2{text-align: left;font-size: 20pt;color: #800000;}
+
+/* リンク先(Header & Footer) */
+nav ul{
+    margin: 50px 0 0;
+    padding: 0;
+    text-align: right;
+} 
+
+nav li{
+    display: inline;
+    margin: 0 1.0rem;
+}
+
+a{
+    text-decoration: underline;
+}
+
+/* タイトルエリア・スタイリング */
+.title{
+    /* 背景 高さ */
+    height: 17rem;
+    background-image: url(牧場.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-shadow: 1px 1px 10px  #4b2c14;
+    }
+    /* タイトル */
+    h3{text-align: center;
+        line-height: 0.rem;
+        font-size: 40pt;
+        color: #f2ebf5;
+        font-weight: bold;
+    }
+
+    .lead{
+        max-width: 60%;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .lead p{
+        text-align: left;
+        font-size: 24px;
+        line-height: 40px;
+        margin-top: 40px;
+    }
+
+
+
+/* 背景色 */
+.technology{
+    background-color: #e5e2e2;
+    padding-top: ;
+    padding-bottom: 50px;
+}
+
+/* 中見出し */
+.technology h6{
+    text-align: center;
+    line-height: 100px;
+    font-size: 24pt;
+    color: #03c82a;
+    font-weight: bold;
+}
+
+/* .technology-list{} */
+    /* メニューを横並び */
+    /* display: flex; */
+    /* padding-top: 0; */
+    /* padding-bottom: 10px; */
+    /* padding-left: 60px; */
+    /* padding-right: 60px; */
+
+
+/* .technology-list li{} */
+    /* flex-shrink: 0; */
+    /* width: 300px; */
+    /* margin-left: 200px; */
+
+/* 最初のメニューの左余白(margin-left)を0にする */
+/* .technology-list li:first-child{} */
+    /* margin-left: 0; */
+
+    .technology-list{
+        width: 930px;
+        max-width: 90%;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+        /* グリッドレイアウト */
+        display: grid;
+        /* グリッド １列の数（幅の狭いブラウザ対応）　幅 */
+        grid-template-columns: repeat(auto-fit,240px);
+        /* グリッド　列・行　間隔 */
+        column-gap: 100px;
+        row-gap: 70px;
+        /* アイテムの左右の揃え */
+        justify-content: center;
+    }
+    
+    /* 画像サイズを揃える */
+.img-item{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.technology-list dl{
+    margin-top: 20px;
+}
+.technology-list dt{
+    font-size: 22px;
+    font-weight: bold;
+
+}
+.technology-list dd{
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-left: 0;
+}
+.technology-list li{
+    list-style: none;
+}
+
+/*  .link-button{ */
+/* linkの位置 左からの距離*/
+/* margin-left: 150px;} */ 
+
+
+
+
+
+
+
+    
+.footer{
+        /* フッター上部に余白 */
+        margin-top: 200px;
+}
+p{text-align: center;
+  font-size: 18pt;
+}
+
+
+
+
+</style>

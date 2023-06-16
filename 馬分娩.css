@@ -1,0 +1,54 @@
+＿＿@charset "urf-8"
+
+*,
+::before,
+::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+h6{
+    text-align: center;
+    line-height: 100px;
+    font-size: 24pt;
+    color: #03c82a;
+    font-weight: bold;
+}
+
+
+
+.back-button{
+    background-color: #90f7d5;
+    display: inline-block;
+    min-width: 180px;
+    line-height: 48px;
+    border-radius: 24px;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(16, 125, 51);
+    text-align: center;
+    margin-top: 35px;
+    cursor: pointer;
+    border: none;
+}
+/* マウスを置いた時に変色 */
+.back-button:hover{
+    background-color: #06f8c7;
+}
+/* フッター上部に余白 */
+.back-button{
+    margin-top: 50px;
+    /* ボタンの位置 左からの距離*/
+    margin-left: 1150px;
+}
+
+

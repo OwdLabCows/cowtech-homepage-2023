@@ -1,0 +1,134 @@
+＿＿@charset "urf-8"
+
+*,
+::before,
+::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.top{
+    width: 500px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    /* class="support"のエリア表示 */
+    /* background-color: #e5e2e2; */
+}
+
+
+.top h6{
+    text-align: center;
+    line-height: 100px;
+    font-size: 24pt;
+    color: #03c82a;
+    font-weight: bold;
+}
+
+
+.top .back-button{
+    background-color: #90f7d5;
+    display: inline-block;
+    margin-left: 170px;
+
+    min-width: 180px;
+    line-height: 48px;
+    border-radius: 24px;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(16, 125, 51);
+    text-align: center;
+
+    
+    /* ボタン上下部に余白 */
+    /* margin-top: 0px; */
+    /* margin-bottom: 0px; */
+
+    /* ボタンの位置 左からの距離*/
+    /* margin-left: 1150px; */
+
+    cursor: pointer;
+    border: none;
+}
+/* マウスを置いた時に変色 */
+.top .back-button:hover{
+    background-color: #06f8c7;
+}
+
+
+.AI分析-list{
+    width: 1800px;
+    max-width: 90%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* グリッドレイアウト */
+    display: grid;
+    /* グリッド １列の数（幅の狭いブラウザ対応）　幅 */
+    grid-template-columns: repeat(2,700px);
+    /* グリッド　列・行　間隔 */
+    column-gap: 300px;
+    row-gap: 150px;
+    /* アイテムの左右の揃え */
+    justify-content: center;
+
+     /* background-color: #e5e2e2;  */
+}
+
+
+
+/* 画像サイズを揃える */
+.img-item{
+    width: 1000px;
+    height: 90%px;
+    object-fit: cover;
+    /* background-color: #e5e2e2;  */
+}
+
+.AI分析-list dl{
+    margin-top: 0px;
+}
+.AI分析-list dt{
+
+    font-size: 22px;
+    font-weight: bold;
+    width: 500px;
+    height: 0px;
+    text-align: center;
+
+}
+
+.AI分析-list dd{
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 10px;
+
+}
+/*  */
+.AI分析-list li{
+    list-style: none;
+}
+
+
+
+
+
+
+.footer{
+    /* フッター上部に余白 */
+    margin-top: 200px;
+}
+p{text-align: center;
+font-size: 18pt;
+}
+
+
+
+
+
+
+

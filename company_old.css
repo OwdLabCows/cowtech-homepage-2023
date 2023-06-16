@@ -1,0 +1,246 @@
+@charset "urf-8"
+
+*,
+::before,
+::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+.header-inner{
+    max-width: 1200px;
+    height: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 会社ロゴ */
+h1{text-align: left;line-height: 0.1rem;font-size: 30pt;}
+h2{text-align: left;font-size: 20pt;color: #800000;}
+
+
+nav ul{
+    margin: 50px 0 0;
+    padding: 0;
+    text-align: right;
+} 
+
+nav li{
+    display: inline;
+    margin: 0 1.0rem;
+}
+
+a{
+    text-decoration: underline;
+}
+
+/* タイトルエリア・スタイリング */
+.title{
+    height: 17rem;
+    background-image: url(理科大外景_03.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-shadow: 1px 1px 10px #4b2c14;
+    }
+
+    h3{text-align: center;
+        line-height: 0.rem;
+        font-size: 40pt;
+        color: #f2ebf5;
+        font-weight: bold;
+    }
+
+
+    body{
+        font-family: sans-serif;
+        font-size: 20px;
+        color: #000;
+        line-height: 1;
+    }
+
+
+    table h6{text-align:center;font-size: 16pt;color: #000000;}
+
+    table {
+        border-collapse: collapse;
+        text-align: center;
+      }
+      table th, table td {
+        border: solid 1px black;
+        padding : 20px 10px;
+        text-align: center;
+        width:150px;
+      }
+      thead.table_head,tbody.table_body{
+        display: block;
+      }
+      tbody.table_body {
+        overflow-y: scroll;
+        height: 0px; 
+      }
+
+
+
+
+
+
+/* 
+overview.table{
+    /* 隣り合うセルの罫線の隙間を空けない */
+    border-collapse:collapse;
+    width:100%;
+    margin:10px auto 20px;
+    }
+
+    overview.table th,overview.table td{
+        padding:5px;
+        border:solid 1px black;
+        color:#fff;
+        background:rgba(20,20,20,0.4);
+        }
+    
+overview.table th{
+    letter-spacing:1px;
+    white-space:nowrap;
+    color:#000;
+    background:rgba(20,20,20,0.1);
+    }
+    */
+#main{}
+
+
+/* 会社紹介　小タイトル */
+h5{text-align:center;font-size: 20pt;color: #036b8e;}
+
+/* コンセプト（１） 「創業者紹介＆大学発ベンチャー企業の特徴」 */
+.founder{
+    /* 画像とテキストを横並び */
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    max-width: 90%;
+    /* top空き */
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    /* 長文時の画像の高さ影響なし */
+    align-items: flex-start;
+    /* 画像の大きさを揃える */
+    .founder img{
+        width: 360px;
+    }
+    /* テキストエリアの幅と余白 */
+    .founder-text{
+        max-width: 1000px;
+        margin-right: 40px;
+    }
+    .founder-text p {
+        font-size: 24px;
+        line-height: 28px;
+        margin-top: 25px;
+        color: #000;
+    }
+}
+
+
+/* コンセプト（２）「事業内容」 */
+.busineess{
+    /* 画像とテキストを横並び */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    /* 長文時の画像の高さ影響なし */
+    align-items: flex-start;
+    /* 画像の大きさを揃える */
+    .business img{
+            width: 360px;
+   /* 余白を左右反転 */
+   .business-text{
+    margin-left: 40px;
+    margin-right: 0;
+}
+}
+    /* 画像の大きさを揃える */
+    .business img{
+        width: 360px;
+    }
+/* テキストエリアの幅と余白 */
+    .business-text{
+        max-width: 1000px;
+        margin-right: 40px;
+    }
+/* コンセプト文のスタイル調整 */
+    .business-text p {
+        font-size: 24px;
+        line-height: 28px;
+        margin-top: 25px;
+        color: #000;
+}
+}
+
+/* コンセプト（３）これまでの産官学連携事業 */
+.collaboration{
+    /* 画像とテキストを横並び */
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    max-width: 90%;
+    /* top空き */
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    /* 長文時の画像の高さ影響なし */
+    align-items: flex-start;
+    /* 画像の大きさを揃える */
+    .collaboration img{
+        width: 360px;
+    }
+    /* テキストエリアの幅と余白 */
+    .collaboration-text{
+        max-width: 1000px;
+        margin-right: 40px;
+    }
+    .collaboration-text p {
+        font-size: 24px;
+        line-height: 28px;
+        margin-top: 25px;
+        color: #000;
+    }
+}
+
+h4{text-align: center;
+    line-height: 0.rem;
+    font-size: 24pt;
+    color: #9932c3;
+    font-weight: bold;
+} 
+
+
+
+
+
+.footer{}
+    p{text-align: center;
+      font-size: 18pt;
+    }
+
+
+
+
+</style>

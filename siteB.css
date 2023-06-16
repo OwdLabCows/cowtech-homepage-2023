@@ -1,0 +1,77 @@
+＿＿@charset "urf-8"
+
+*,
+::before,
+::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+/* 会社名ロゴ */
+.header-inner{
+    max-width: 1200px;
+    height: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{text-align: left;line-height: 0.1rem;font-size: 30pt;}
+h2{text-align: left;font-size: 20pt;color: #800000;}
+
+/* リンク先(Header & Footer) */
+nav ul{
+    margin: 50px 0 0;
+    padding: 0;
+    text-align: right;
+} 
+
+nav li{
+    display: inline;
+    margin: 0 1.0rem;
+}
+
+a{
+    text-decoration: underline;
+}
+
+/* タイトルエリア・スタイリング */
+.title{
+    /* 背景 高さ */
+    height: 17rem;
+    background-image: url(牧場.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-shadow: 1px 1px 10px  #4b2c14;
+    }
+    /* タイトル「お問合せ」 */
+    h3{text-align: center;
+        line-height: 0.rem;
+        font-size: 40pt;
+        color: #f2ebf5;
+        font-weight: bold;
+    }
+
+
+
+
+
+       
+.footer{}
+p{text-align: center;
+  font-size: 18pt;
+}
+

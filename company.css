@@ -1,0 +1,224 @@
+@charset "urf-8"
+
+*,
+::before,
+::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+.header-inner{
+    max-width: 1200px;
+    height: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 会社ロゴ */
+h1{text-align: left;line-height: 0.1rem;font-size: 30pt;}
+h2{text-align: left;font-size: 20pt;color: #800000;}
+
+
+nav ul{
+    margin: 50px 0 0;
+    padding: 0;
+    text-align: right;
+} 
+
+nav li{
+    display: inline;
+    margin: 0 1.0rem;
+}
+
+a{
+    text-decoration: underline;
+}
+
+/* タイトルエリア・スタイリング */
+.title{
+    height: 17rem;
+    background-image: url(理科大外景_03.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-shadow: 1px 1px 10px #4b2c14;
+    }
+
+    h3{text-align: center;
+        line-height: 0.rem;
+        font-size: 40pt;
+        color: #f2ebf5;
+        font-weight: bold;
+    }
+
+/* サブタイトル 表 */
+    h5{text-align: center;
+        line-height: 100px;
+        font-size: 24pt;
+        color: #03c82a;
+        font-weight: bold;
+    }
+    
+/* 表 */
+.overview table{
+    /* 線の一本化 */
+    border-collapse: collapse;
+    /* 中央配置 */
+    margin:auto;
+    /* 高さ 幅 文字サイス 文字揃え */
+    height: 0px;
+    width: 1200px;
+    font-size: 26px;
+}
+
+
+
+    /* 一番上の線 */
+.overview {
+    border-top: 1px solid #a7a9a8;
+}
+
+
+
+/* 線太さ 種類　色 */
+.overview th{
+    font-size: 20px;
+    font-weight: normal; 
+    color: #a7a9a8;
+    border-bottom: 1px solid #a7a9a8;
+    padding: 40px;
+}
+.overview td{
+    border-bottom: 1px solid #a7a9a8;
+}
+
+
+/* サブタイトル コンセプト */
+h6{text-align: center;
+    line-height: 100px;
+    font-size: 24pt;
+    color: #03c82a;
+    font-weight: bold;
+}
+
+/* コンセプト（１） */
+.founder{
+    display: flex;
+    justify-content: space-between;
+    width: 2000px;
+    max-width: 90%;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-start;
+}
+.founder img{
+    width: 360px;
+    margin-top: 150px;
+}
+.founder-text{
+    max-width: 1500px;
+    margin-right: 40px;
+}
+.founder-text p{
+    font-size: 24px;
+    text-align: left;
+    line-height: 40px;
+    margin-top: 25px;
+}
+
+
+/* コンセプト（２） */
+.business{
+    display: flex;
+    justify-content: space-between;
+    width: 2000px;
+    max-width: 90%;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-start;
+}
+.business img{
+    width: 450px;
+    margin-top: 150px;
+}
+.business{
+    flex-direction: row-reverse;
+}
+.business-text{
+    max-width: 1500px;
+    margin-left: 40px;
+    margin-right: 0;
+}
+.business-text p{
+    font-size: 24px;
+    text-align: left;
+    line-height: 40px;
+    margin-top: 25px;
+}
+
+/* コンセプト（３） */
+.collabo{
+    display: flex;
+    justify-content: space-between;
+    width: 2000px;
+    max-width: 90%;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-start;
+}
+.collabo img{
+    width: 450px;
+    margin-top: 150px;
+}
+.collabo-text{
+    max-width: 1500px;
+    margin-right: 40px;
+}
+.collabo-text p{
+    font-size: 24px;
+    text-align: left;
+    line-height: 40px;
+    margin-top: 25px;
+}
+
+/* 画像サイズを揃える */
+.img-item{
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+    
+.footer{
+    margin-top: 200px;
+}
+    p{text-align: center;
+      font-size: 18pt;
+    }
+
+
+

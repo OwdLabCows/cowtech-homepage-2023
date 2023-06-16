@@ -1,0 +1,207 @@
+@charset "urf-8"
+
+*,
+::before,
+::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+/* 会社名ロゴ */
+.header-inner{
+    max-width: 1200px;
+    height: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{text-align: left;line-height: 0.1rem;font-size: 30pt;}
+h2{text-align: left;font-size: 20pt;color: #800000;}
+
+/* リンク先(Header & Footer) */
+nav ul{
+    margin: 50px 0 0;
+    padding: 0;
+    text-align: right;
+} 
+
+nav li{
+    display: inline;
+    margin: 0 1.0rem;
+}
+
+a{
+    text-decoration: underline;
+}
+
+/* タイトルエリア・スタイリング */
+.title{
+    /* 背景 高さ */
+    height: 17rem;
+    background-image: url(理科大外景_03.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-shadow: 1px 1px 10px  #4b2c14;
+    }
+    /* タイトル「お問合せ」 */
+    h3{text-align: center;
+        line-height: 0.rem;
+        font-size: 40pt;
+        color:  #f2ebf5;
+        font-weight: bold;
+    }
+
+
+
+
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #000;
+    line-height: 1;
+}
+
+
+table.table{
+    border-collapse:collapse;
+    width:100%;
+    margin:10px auto 20px;
+    }
+
+
+    table.table th,table.table td{
+    padding:5px;
+    border:1px solid #000;
+    color:#fff;
+    background:rgba(20,20,20,0.4);
+    }
+    
+    table.table th{
+    letter-spacing:1px;
+    white-space:nowrap;
+    color:#000;
+    background:rgba(20,20,20,0.1);
+    }
+
+#main{}
+
+
+/* 「お問合せフォーム」 */
+h4{text-align: center;
+    line-height: 0.rem;
+    font-size: 24pt;
+    color: #03c82a;
+    font-weight: bold;
+}
+
+/* フォームエリアの大枠のスタイル */
+.contact{
+    width: 930px;
+    max-width: 90%;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* フォームエリア全体のスタイル調整 */
+.form-area{
+    background-color: #f8f8f8;
+    border: 1px solid #aaaaaa;
+    margin-top: 25px;
+    padding: 30px;
+    display: flex; 
+    flex-wrap: wrap;
+}
+/* 項目欄と入力欄の幅を指定 */
+/* 項目欄のスタイル調整 */
+.form-area dt{
+    width: 200px;
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+}
+/* 入力欄のスタイル調整 */
+.form-area dd{
+    width: calc(100% - 240px);
+    padding: 15px 0;
+}
+/* テキスト入力欄のサイズ調整 */
+.input-text{
+    width: 100%;
+    max-width: 280px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* 必須項目に目印 */
+.form-area dt .required::after {
+    content: '必須';
+    font-size: 16px;
+    color: #eb4f32;
+    margin-left: 10px;
+}
+/* 長文テキスト（お問合せ内容） */
+.message{
+    width: 100%;
+    height: 260px;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+/* 送信ボタン */
+/* 注意書きの文字スタイル */
+.confirm-text{
+    font-size: 24px;
+    line-height: 22px;
+    margin-top: 30px;
+}
+/* ボタンのスタイル */
+.submit-button{
+    background-color: #f4dd64;
+    display: inline-block;
+    min-width: 180px;
+    line-height: 48px;
+    border-radius: 24px;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 35px;
+    cursor: pointer;
+    border: none;
+}
+/* マウスを置いた時に変色 */
+.submit-button:hover{
+    background-color: #d8b500;
+}
+/* フッター上部に余白 */
+.submit-button{
+    margin-top: 10px;
+    /* ボタンの位置 左からの距離*/
+    margin-left: 1150px;
+}
+
+
+/* Copyright */
+.footer{}
+    p{text-align: center;
+      font-size: 18pt;
+    }
+
+
+
+
+</style>

@@ -1,0 +1,18 @@
+@charset "urf-8"
+
+#main{}
+
+.title01{
+height: 10rem;
+background-image: url(aboutImg01.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: #ffffff;
+text-shadow: 1px 1px 10px #4b2c14;
+}
+
