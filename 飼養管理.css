@@ -80,12 +80,15 @@
 }
 .service{
     overflow-wrap: break-word;
+    /* 修正 20230623 親要素grid指定 */
+    display: grid;
 }
 
 
 /* 説明（１） */
 .service_①{
     display: flex;
+    /* display: grid; */
     justify-content: space-between;
     width: 2000px;
     max-width: 90%;
@@ -96,7 +99,8 @@
 }
 .service_① img{
     width: 1500px;
-    height: 50%;
+    /* 修正 20230623 高さ100% */
+    height: 100%;
     margin-top: 0px;
 }
 .service_①-text{
@@ -124,7 +128,8 @@
 }
 .service_② img{
     width: 1500px;
-    height: 50%;
+    /* 修正 20230623 高さ100% */
+    height: 100%;
     margin-top: 0px;
 }
 .service_②{
@@ -155,7 +160,8 @@
 }
 .service_③ img{
     width: 1500px;
-    height: 50%;
+    /* 修正 20230623 高さ100% */
+    height: 100%;
     margin-top: 0px;
 }
 .service_③-text{

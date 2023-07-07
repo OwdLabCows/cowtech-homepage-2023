@@ -116,6 +116,13 @@ h6{text-align: center;
     font-weight: bold;
 }
 
+/* 修正 20230623（親要素のgrid定義） */
+.concept{
+    display: grid;
+}
+
+
+
 /* コンセプト（１） */
 .founder{
     display: flex;

@@ -69,7 +69,8 @@
     /* background-color: #e5e2e2;} */
 }
 .support img{
-    width: 1400px;
+    /* 修正 20230623 幅増 */
+    width: 1600px;
     height: 900px;
     margin: 50px;
 }
@@ -92,7 +93,8 @@
     column-gap: 300px;
     row-gap: 50px;
     /* アイテムの左右の揃え */
-    justify-content: center;
+    /* 修正 20230623 justify-content削除 */
+    /* justify-content: center; */
     /* background-color: #e5e2e2; */
 }
 

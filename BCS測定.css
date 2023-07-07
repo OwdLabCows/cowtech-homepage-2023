@@ -62,16 +62,18 @@
 
 
 .BSC {
-    width: 1500px;
-    height: 1200px;
+    width: 1000px;
+    height: 900px;
     margin-left: auto;
     margin-right: auto;
     /* class="活動量計"のエリア表示 */
     /* background-color: #e5e2e2; */
 }
+
+
 .BSC img{
-    width: 1400px;
-    height: 1000px;
+    width: 1000px;;
+    height: 750px;
     margin: 50px;
 }
 
@@ -91,7 +93,8 @@
     column-gap: 300px;
     row-gap: 50px;
     /* アイテムの左右の揃え */
-    justify-content: center;
+    /* 修正 20230623 justify-content削除 */
+    /* justify-content: center; */
 
      /* background-color: #e5e2e2;  */
 }
@@ -100,8 +103,8 @@
 
 /* 画像サイズを揃える */
 .img-item{
-    width: 1000px;
-    height: 90%px;
+    width: 900px;
+    height: 545px;
     object-fit: cover;
     /* background-color: #e5e2e2;  */
 }

@@ -74,7 +74,8 @@
     column-gap: 300px;
     row-gap: 150px;
     /* アイテムの左右の揃え */
-    justify-content: center;
+    /* 修正 20230623 justify-content削除 */
+    /* justify-content: center; */
 
      /* background-color: #e5e2e2;  */
 }
